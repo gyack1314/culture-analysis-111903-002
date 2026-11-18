@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "path": "actions.json",
+      "bytes": 212,
+      "sha256": "0201b71c7e4195c1c3ca9b57eb0e697eccbe6024a68a2e0a014aec6ea83ce317"
+    },
+    {
+      "path": "calendar.parquet",
+      "bytes": 35238,
+      "sha256": "349e8904ce8c03931ef88ea805e07b779f1e7654662e0b0038a99dc189e276d6",
+      "rows": 56
+    },
+    {
+      "path": "catalog.parquet",
+      "bytes": 2041,
+      "sha256": "93c62e95aee1e51c42fa5b7a4bbc58b6d6ae2ead7000ffdd3c1fa598dd7dc3bb",
+      "rows": 4
+    },
+    {
+      "path": "costs.parquet",
+      "bytes": 2460,
+      "sha256": "181cd94d2ad1e3059510b0b96c7376c765ac5db88848aa7973e3826105048550",
+      "rows": 4
+    },
+    {
+      "path": "evaluation.json",
+      "bytes": 156,
+      "sha256": "5cd0d58c0ade118d8f71e7af54eec5e815a60346073c69277c05825bba441e8d"
+    },
+    {
+      "path": "forecast_requests.json",
+      "bytes": 898,
+      "sha256": "148cae802a43556808669626c59a6193746980ed412273c44491ee240323be2c"
+    },
+    {
+      "path": "inventory_spells.parquet",
+      "bytes": 370941,
+      "sha256": "3208eccef5dbef350c9ae6ca0a302b079cac1f255d4912bdc4d673395f94a42c",
+      "rows": 392
+    },
+    {
+      "path": "sales.parquet",
+      "bytes": 296131,
+      "sha256": "d216e7a3cbad7a909323cd79da7b37cdaebf1d0afcc3c54d820a53cebb5ddf85",
+      "rows": 378
+    },
+    {
+      "path": "seed.json",
+      "bytes": 217653,
+      "sha256": "ece0b0deaab02f722c6ffd400d3e4eaae9d2d22cad0769773adeb444a52d9630"
+    }
+  ]
+}

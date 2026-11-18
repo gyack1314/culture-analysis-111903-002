@@ -1,0 +1,7 @@
+# 合成分析资料契约
+
+所有机构、企业、受访者、交易和事件均为本地合成，不来自新闻所涉真实主体，不声称新闻发生过这些分析问题。
+
+seed.json与同名Parquet是相同原始值的两种载体；actions.json列尚未应用的后续输入动作。inventory.json只记录原件物理摘要和行数，不提供分析结论。时间均含时区或明确日期，金钱字段minor以CNY分计，空值保留未知含义。已有代码只做物理完整性检查，没有估计、预测、方案求解或产品发布功能。
+
+sales是实际成交件数，inventory_spells逐商品摊位声明可售/售罄/关闭/未知，左闭右开，营业时间来自calendar。全日已确认可售的零销售才是观察到的零需求；售罄只给潜在需求下界，不提供丢失销量真值。known_at为本条资料首次可用时点，revision的supersedes明确取代关系；回测起点不能用之后才获知的资料。catalog的launch_day与family表示上架及可共享背景，substitution_group仅表明可替代，不给替代比例。forecast_requests给出起点、预测日期和层级，顶层total包含全部有效摊位商品。costs是每件缺货/滞销代价及可选补货整数，不约定预测算法。future_validation只包含后续实现观测，不补造售罄期间真需求。

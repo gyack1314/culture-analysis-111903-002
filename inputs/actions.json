@@ -1,0 +1,11 @@
+[
+  {
+    "step": 1,
+    "op": "replace_inventory",
+    "spell": "A-P1-7-b",
+    "revision": 2,
+    "state": "sold_out",
+    "known_at": "2026-10-11T12:00:00+08:00",
+    "supersedes": "A-P1-7-b/1"
+  }
+]

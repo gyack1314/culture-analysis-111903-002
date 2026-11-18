@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "observed_sales",
+    "supported_latent_demand"
+  ],
+  "latest_origin": "2026-11-19T08:00:00+08:00",
+  "no_latent_truth": true
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "request": "F21",
+    "origin": "2026-10-22T08:00:00+08:00",
+    "horizon_days": 3,
+    "levels": [
+      "site_product",
+      "site",
+      "total"
+    ]
+  },
+  {
+    "request": "F28",
+    "origin": "2026-10-29T08:00:00+08:00",
+    "horizon_days": 3,
+    "levels": [
+      "site_product",
+      "site",
+      "total"
+    ]
+  },
+  {
+    "request": "F35",
+    "origin": "2026-11-05T08:00:00+08:00",
+    "horizon_days": 3,
+    "levels": [
+      "site_product",
+      "site",
+      "total"
+    ]
+  },
+  {
+    "request": "F42",
+    "origin": "2026-11-12T08:00:00+08:00",
+    "horizon_days": 3,
+    "levels": [
+      "site_product",
+      "site",
+      "total"
+    ]
+  },
+  {
+    "request": "F49",
+    "origin": "2026-11-19T08:00:00+08:00",
+    "horizon_days": 3,
+    "levels": [
+      "site_product",
+      "site",
+      "total"
+    ]
+  }
+]
